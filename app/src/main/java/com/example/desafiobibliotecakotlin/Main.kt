@@ -5,7 +5,7 @@ fun LibrosEscolares.precioFormateado():String{
 }
 
 fun imprimir(libro:LibrosEscolares){
-    println("Nombre del libro: ${libro.nombre}, ISBN: ${libro.isbn}, Año publicación: ${libro.ano}, Editorial: ${libro.editorial}, Cantidad de páginas: ${libro.paginas}, Precio: ${libro.precioFormateado()}, Autor del libro: ${libro.autor}, Tipo de libro: ${libro.tipo}\n")
+    println("Nombre del libro: ${libro.nombre}, ISBN: ${libro.isbn}, Año publicación: ${libro.anno}, Editorial: ${libro.editorial}, Cantidad de páginas: ${libro.paginas}, Precio: ${libro.precioFormateado()}, Autor del libro: ${libro.autor}, Tipo de libro: ${libro.tipo}\n")
 }
 
 fun main(){
